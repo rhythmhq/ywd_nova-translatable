@@ -1,0 +1,31 @@
+{
+    "name": "yeswedev/nova-translatable",
+    "description": "A Laravel Nova field for dimsav/laravel-translatable.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "translatable"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "dimsav/laravel-translatable": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YesWeDev\\Nova\\Translatable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YesWeDev\\Nova\\Translatable\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

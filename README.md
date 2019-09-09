@@ -1,0 +1,1 @@
+# ywd_nova-translatable
